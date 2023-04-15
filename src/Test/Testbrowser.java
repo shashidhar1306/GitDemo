@@ -19,8 +19,9 @@ public class Testbrowser {
 	
 		driver.get("https://google.com");
 		System.out.println("print Selenium");
-		System.out.println("print API");
-		System.out.println("print Appium");
+		
+		
+		
 		Assert.assertTrue(driver.getTitle().matches("Google"));
 	}
 }
