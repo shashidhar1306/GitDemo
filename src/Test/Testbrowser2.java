@@ -20,6 +20,9 @@ public class Testbrowser2 {
 	
 		driver.get("https://rahulshettyacademy.com");
 		Assert.assertTrue(driver.getTitle().matches("Rahul Shetty Academy"));
+		
+		System.out.println("print API-3");
+		System.out.println("print Appium-3");
 		//ttttt
 		//yyyyy/
 		//uuiiyi

@@ -21,6 +21,11 @@ public class Testbrowser {
 		System.out.println("print Selenium");
 		System.out.println("print API");
 		System.out.println("print Appium");
+		
+		System.out.println("print API-1");
+		System.out.println("print Appium-1");
+		System.out.println("print API-2");
+		System.out.println("print Appium-2");
 		Assert.assertTrue(driver.getTitle().matches("Google"));
 	}
 }
