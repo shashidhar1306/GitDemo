@@ -18,6 +18,9 @@ public class Testbrowser {
 		WebDriver driver= new RemoteWebDriver(  new URL("https:hub.browserstack.com/wd/hub"), caps);
 	
 		driver.get("https://google.com");
+		System.out.println("print Selenium");
+		System.out.println("print API");
+		System.out.println("print Appium");
 		Assert.assertTrue(driver.getTitle().matches("Google"));
 	}
 }
